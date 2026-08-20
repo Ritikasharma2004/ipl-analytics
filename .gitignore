@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Derived data files, excluded to keep the repository clone-able.
+# Both are regenerated from data/raw/ipl_json.zip (4.9 MB, committed) by:
+#   python src/transform.py && python src/load_db.py
+data/processed/deliveries.csv
+data/ipl.db

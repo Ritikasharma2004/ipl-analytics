@@ -1,0 +1,21 @@
+# Core data handling
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+
+# Statistical tests
+scipy>=1.11
+
+# Static figures
+matplotlib>=3.7
+seaborn>=0.13
+
+# Interactive dashboard
+streamlit>=1.50
+plotly>=5.18
+
+# Markdown table rendering in reports
+tabulate>=0.9
+
+# Tests
+pytest>=7.4
